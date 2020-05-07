@@ -11,6 +11,8 @@ cv.createTrackbar('B', 'image', 0, 255, nothing)
 cv.createTrackbar('G', 'image', 0, 255, nothing)
 cv.createTrackbar('R', 'image', 0, 255, nothing)
 
+ 
+
 
 while(1):
     cv.imshow('image',img)
