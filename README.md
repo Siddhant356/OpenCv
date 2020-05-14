@@ -1,1 +1,2 @@
-"# OpenCv \n In this repository I'll share my OpenCv projects" 
+# OpenCv
+In this repository I'll share my OpenCv projects 
