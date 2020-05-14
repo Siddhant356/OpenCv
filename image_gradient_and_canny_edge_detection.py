@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 
-img = cv2.imread('data/messi5.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('data//messi5.jpg', cv2.IMREAD_GRAYSCALE)
 #img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 lap = cv2.Laplacian(img, cv2.CV_64F, ksize=3)
 lap = np.uint8(np.absolute(lap))
