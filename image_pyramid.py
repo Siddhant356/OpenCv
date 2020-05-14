@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("data/lena.jpg")
+img = cv2.imread("data//lena.jpg")
 layer = img.copy()
 gp = [layer]
 
